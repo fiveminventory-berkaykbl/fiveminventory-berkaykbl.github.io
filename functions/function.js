@@ -4,7 +4,7 @@ console.log($(".background"))
 
 //$(".background").style.backgroundImage = "url('./images/background'+randomNumber+'.png')"
 
-var e = $(document).getElementsByClassName("background");
+var e = document.getElementsByClassName("background");
 
 console.log(e)
 console.log(e[0].style)
