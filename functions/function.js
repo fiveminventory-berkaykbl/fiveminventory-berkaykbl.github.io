@@ -1,3 +1,3 @@
-var randomNumber = Math.floor(Math.Random() * 3);
+var randomNumber = Math.floor(Math.random() * 3);
 
 console.log($(".background"))
