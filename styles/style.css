@@ -1,0 +1,92 @@
+body {
+    user-select: none;
+}
+
+.background {
+    background-image: url('../images/background3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+}
+
+.background-blur {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+}
+
+.inventory-frame {
+    width: 80vw;
+    height: 70vh;
+    position: absolute;
+    opacity: 1;
+    top: 15vh;
+    left: 10vw
+}
+
+.top {
+    width: 80vw;
+    height: 7vh;
+    position: static;
+    display: flex;
+    align-items: center;
+}
+
+.top-top {
+    font-size: 30px;
+    color: white;
+}
+
+.bottom {
+    display: flex;
+    width: 80vw;
+    height: 63vh;
+}
+
+.bottom-side {
+    width: 34vw;
+    height: 63vh;
+}
+
+.bottom-center {
+    width: 12vw;
+    height: 55vh;
+    margin-top: 5vh;
+}
+
+.inventory-area {
+    margin-top: 1vh;
+    height: 57vh;
+    position: static;
+    overflow-y: scroll;
+    scrollbar-width: 0;
+}::-webkit-scrollbar {
+    width: 5px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.inventory-row {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+}
+
+#inventory-item-noselect {
+    width: 8vw;
+    height: 8vw;
+    background-color: black;
+    position: static;
+    border-radius: 15px;
+    margin-bottom: 5px;
+    opacity: 0.5;
+}
+
+.bottom-text-area {
+    height: 5vh;
+}
